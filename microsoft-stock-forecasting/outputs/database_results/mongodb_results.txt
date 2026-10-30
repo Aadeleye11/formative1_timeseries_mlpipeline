@@ -1,0 +1,270 @@
+test> switched to db microsoft_stocks
+microsoft_stocks> 
+microsoft_stocks> 
+microsoft_stocks> QUERY 1: Latest stock record
+
+microsoft_stocks> | | [
+  {
+    _id: ObjectId('6ae4f603c5338cef3ff52c73'),
+    ticker: 'MSFT',
+    date: ISODate('2021-03-31T16:00:00.000Z'),
+    open: 232.91,
+    high: 239.1,
+    low: 232.39,
+    close: 235.77,
+    volume: 43623471
+  }
+]
+
+microsoft_stocks> 
+microsoft_stocks> 
+microsoft_stocks> QUERY 2: January 2020 records
+
+microsoft_stocks> | | | | | | | [
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a01'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-02T16:00:00.000Z'),
+    open: 158.78,
+    high: 160.73,
+    low: 158.33,
+    close: 160.62,
+    volume: 22634546
+  },
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a03'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-03T16:00:00.000Z'),
+    open: 158.32,
+    high: 159.95,
+    low: 158.06,
+    close: 158.62,
+    volume: 21121681
+  },
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a05'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-06T16:00:00.000Z'),
+    open: 157.08,
+    high: 159.1,
+    low: 156.51,
+    close: 159.03,
+    volume: 20826702
+  },
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a07'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-07T16:00:00.000Z'),
+    open: 159.32,
+    high: 159.67,
+    low: 157.32,
+    close: 157.58,
+    volume: 21881740
+  },
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a09'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-08T16:00:00.000Z'),
+    open: 158.93,
+    high: 160.8,
+    low: 157.95,
+    close: 160.09,
+    volume: 27762026
+  },
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a0b'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-09T16:00:00.000Z'),
+    open: 161.84,
+    high: 162.22,
+    low: 161.03,
+    close: 162.09,
+    volume: 21399951
+  },
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a0d'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-10T16:00:00.000Z'),
+    open: 162.82,
+    high: 163.22,
+    low: 161.18,
+    close: 161.34,
+    volume: 20733946
+  },
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a0f'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-13T16:00:00.000Z'),
+    open: 161.76,
+    high: 163.31,
+    low: 161.26,
+    close: 163.28,
+    volume: 21637007
+  },
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a11'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-14T16:00:00.000Z'),
+    open: 163.39,
+    high: 163.6,
+    low: 161.72,
+    close: 162.13,
+    volume: 23500783
+  },
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a13'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-15T16:00:00.000Z'),
+    open: 162.62,
+    high: 163.94,
+    low: 162.57,
+    close: 163.18,
+    volume: 21417871
+  },
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a15'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-16T16:00:00.000Z'),
+    open: 164.35,
+    high: 166.24,
+    low: 164.03,
+    close: 166.17,
+    volume: 23865360
+  },
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a17'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-17T16:00:00.000Z'),
+    open: 167.42,
+    high: 167.47,
+    low: 165.43,
+    close: 167.1,
+    volume: 34371659
+  },
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a19'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-21T16:00:00.000Z'),
+    open: 166.68,
+    high: 168.19,
+    low: 166.43,
+    close: 166.5,
+    volume: 29517191
+  },
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a1b'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-22T16:00:00.000Z'),
+    open: 167.4,
+    high: 167.49,
+    low: 165.68,
+    close: 165.7,
+    volume: 24138777
+  },
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a1d'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-23T16:00:00.000Z'),
+    open: 166.19,
+    high: 166.8,
+    low: 165.27,
+    close: 166.72,
+    volume: 19680766
+  },
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a1f'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-24T16:00:00.000Z'),
+    open: 167.51,
+    high: 167.53,
+    low: 164.45,
+    close: 165.04,
+    volume: 24918117
+  },
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a21'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-27T16:00:00.000Z'),
+    open: 161.15,
+    high: 163.38,
+    low: 160.2,
+    close: 162.28,
+    volume: 32078067
+  },
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a23'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-28T16:00:00.000Z'),
+    open: 163.78,
+    high: 165.76,
+    low: 163.07,
+    close: 165.46,
+    volume: 24899940
+  },
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a25'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-29T16:00:00.000Z'),
+    open: 167.84,
+    high: 168.75,
+    low: 165.69,
+    close: 168.04,
+    volume: 35127771
+  },
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a27'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-30T16:00:00.000Z'),
+    open: 174.05,
+    high: 174.05,
+    low: 170.79,
+    close: 172.78,
+    volume: 51597470
+  },
+  {
+    _id: ObjectId('6ae4f602c5338cef3ff52a29'),
+    ticker: 'MSFT',
+    date: ISODate('2020-01-31T16:00:00.000Z'),
+    open: 172.21,
+    high: 172.4,
+    low: 169.58,
+    close: 170.23,
+    volume: 36142690
+  }
+]
+
+microsoft_stocks> 
+microsoft_stocks> 
+microsoft_stocks> QUERY 3: Average closing price by year
+
+microsoft_stocks> | | | | | | | | | | [
+  {
+    _id: 2015,
+    average_price: 47.729476439790574
+  },
+  {
+    _id: 2016,
+    average_price: 55.259325396825396
+  },
+  {
+    _id: 2017,
+    average_price: 71.98402390438248
+  },
+  {
+    _id: 2018,
+    average_price: 101.03398406374501
+  },
+  {
+    _id: 2019,
+    average_price: 130.38357142857143
+  },
+  {
+    _id: 2020,
+    average_price: 193.02612648221344
+  },
+  {
+    _id: 2021,
+    average_price: 232.02147540983606
+  }
+]
+
